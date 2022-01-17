@@ -14,7 +14,6 @@ new Vue ({
             this.temporaryItem=''
         },
         removeItem: function(index){
-            console.log("rimuovo", index)
             this.todo.splice(index, 1)
         }
     } 
