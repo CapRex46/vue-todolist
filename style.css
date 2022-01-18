@@ -29,8 +29,13 @@ li{
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 .close {
     padding-right: 20px;
+}
+
+.done{
+    text-decoration: line-through;
 }
